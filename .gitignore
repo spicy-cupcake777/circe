@@ -1,4 +1,2 @@
-tools
-build
-debug
-out
+target
+**/Cargo.lock

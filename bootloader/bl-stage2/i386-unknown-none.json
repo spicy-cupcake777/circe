@@ -1,0 +1,20 @@
+{
+  "arch": "x86",
+  "data-layout": "e-m:e-p:32:32-f80:32-n8:16:32-S128",
+  "dynamic-linking": false,
+  "position-independent-executables": false,
+  "llvm-target": "i386-unknown-none",
+  "max-atomic-width": 64,
+  "os": "none",
+  "position-independent-executables": true,
+  "relocation-model": "static",
+  "target-pointer-width": "32",
+  "target-endian": "little",
+  "target-c-int-width": "32",
+  "linker-flavor": "ld.lld",
+  "linker": "rust-lld",
+  "features": "-mmx,-sse,+soft-float",
+  "panic-strategy": "abort",
+  "disable-redzone": true,
+  "is-builtin": false
+}
