@@ -10,4 +10,4 @@ test: all
 	qemu-system-i386 -drive file=bl,format=raw
 
 debug: all
-	qemu-system-i386 -drive file-bl,format=raw -s -S
+	qemu-system-i386 -drive file=bl,format=raw -s -S

@@ -31,6 +31,8 @@ read_sectors:
 	mov dh, 0x00
 	mov bx, 0x0200
 	int 0x13
+	xor ax, ax
+	mov es, ax
 
 rust:
 	push dx

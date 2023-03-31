@@ -3,7 +3,7 @@
   "data-layout": "e-m:e-p:32:32-f80:32-n8:16:32-S128",
   "dynamic-linking": false,
   "position-independent-executables": false,
-  "llvm-target": "i386-unknown-none",
+  "llvm-target": "i386-unknown-none-code16",
   "max-atomic-width": 64,
   "os": "none",
   "position-independent-executables": true,
